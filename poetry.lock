@@ -12,12 +12,23 @@ bcrypt = ["bcrypt (>=3.1.0)"]
 build_docs = ["sphinx (>=1.6)", "sphinxcontrib-fulltoc (>=1.2.0)", "cloud-sptheme (>=1.10.1)"]
 totp = ["cryptography"]
 
+[[package]]
+category = "main"
+description = "Cryptographic modules for Python."
+name = "pycrypto"
+optional = false
+python-versions = "*"
+version = "2.6.1"
+
 [metadata]
-content-hash = "4050f628aeb169c0a63b980ee62f89c28b62ea861d8fa809bc709a6951574d38"
+content-hash = "10058e9ffcb1ef9009e8979f2cdb7964baa6055371e3228f4790b2069bd3d4ad"
 python-versions = "^3.8"
 
 [metadata.files]
 passlib = [
     {file = "passlib-1.7.4-py2.py3-none-any.whl", hash = "sha256:aa6bca462b8d8bda89c70b382f0c298a20b5560af6cbfa2dce410c0a2fb669f1"},
     {file = "passlib-1.7.4.tar.gz", hash = "sha256:defd50f72b65c5402ab2c573830a6978e5f202ad0d984793c8dde2c4152ebe04"},
+]
+pycrypto = [
+    {file = "pycrypto-2.6.1.tar.gz", hash = "sha256:f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c"},
 ]
