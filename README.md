@@ -1,3 +1,5 @@
 ### Dependencies
-> pip install pycrypto
-> pip install passlib
+```
+pip install pycrypto
+pip install passlib
+```
